@@ -25,7 +25,7 @@ mongoose
 
 // Use public IP of EC2 for binding
 const server = app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Server running on http://${'51.20.135.111'}:${PORT}`);
+  console.log(`Server running on http://${'13.61.144.6'}:${PORT}`);
 });
 
 module.exports = server; // Export the server instance for use in deployment
